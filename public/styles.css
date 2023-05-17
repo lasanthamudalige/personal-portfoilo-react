@@ -1,0 +1,43 @@
+#intro {
+  padding: 450px 0 450px 0;
+  background-color: #2a9d8f;
+}
+
+#projects {
+  padding: 200px 0 200px 0;
+  background-color: #264653;
+}
+
+#contact {
+  padding: 350px 0 350px 0;
+  background-color: #e9c46a;
+}
+
+#contact .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#contact .social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#contact .social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* #contact .social-icons a svg {
+  font-size: 24px;
+} */
