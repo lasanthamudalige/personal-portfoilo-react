@@ -6,8 +6,7 @@ function Header() {
             <nav
                 id="navbar"
                 class="navbar navbar-expand-lg bg-body-tertiary py-3 text-bg-light fixed-top"
-                data-bs-theme="dark"
-            >
+                data-bs-theme="dark">
                 <div class="container-fluid">
                     <button
                         class="navbar-toggler"
@@ -16,8 +15,7 @@ function Header() {
                         data-bs-target="#navbarNavDropdown"
                         aria-controls="navbarNavDropdown"
                         aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
