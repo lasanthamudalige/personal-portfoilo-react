@@ -3,7 +3,7 @@ import React from "react";
 function ProjectCard(props) {
     return (
         <div class="col">
-            <a href="a" class="text-decoration-none project-tile">
+            <a href={props.link} class="text-decoration-none project-tile" target="_blank" rel="noreferrer">
                 <div class="card bg-dark text-light border-0">
                     <img
                         src={props.img}

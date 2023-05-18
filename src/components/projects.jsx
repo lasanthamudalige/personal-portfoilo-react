@@ -17,12 +17,12 @@ function Projects() {
                 </h2>
 
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <ProjectCard img={image1} name={"Keeper app"} />
-                    <ProjectCard img={image2} name={"Wiki API"} />
-                    <ProjectCard img={image3} name={"TO-Do List"} />
-                    <ProjectCard img={image4} name={"Personal blog"} />
-                    <ProjectCard img={image5} name={"Api based dictionary website"} />
-                    <ProjectCard img={image6} name={"Cafe and wifi website"} />
+                    <ProjectCard link={"https://github.com/lasanthamudalige/keeper-app"} img={image1} name={"Keeper app"} />
+                    <ProjectCard link={"https://github.com/lasanthamudalige/wiki-api"} img={image2} name={"Wiki API"} />
+                    <ProjectCard link={"https://github.com/lasanthamudalige/todo-list-node"} img={image3} name={"TO Do list"} />
+                    <ProjectCard link={"https://github.com/lasanthamudalige/personal-blog-node"} img={image4} name={"Personal blog"} />
+                    <ProjectCard link={"https://github.com/lasanthamudalige/api-based-dictionary"} img={image5} name={"Api based dictionary website"} />
+                    <ProjectCard link={"https://github.com/lasanthamudalige/cafe-and-wifi-website"} img={image6} name={"Cafe and wifi website"} />
                 </div>
             </div>
             <div class="row text-center pt-5">
