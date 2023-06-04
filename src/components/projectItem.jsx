@@ -12,11 +12,17 @@ function ProjectCard(props) {
                     />
                     <div className="card-body">
                         <h5 className="card-title pb-2 fw-bold">{props.title}</h5>
-                        {
-                            props.technologies.map((tech) =>
-                                <span className="border border-white fw-bold p-1 m-2 rounded">{tech}</span>
-                            )
-                        }
+
+                        <div className="row">
+                            <div className="col">
+                                {
+                                    props.technologies.map((technology) =>
+                                        <span className="border border-white fw-bold p-1 m-1 rounded">{technology}</span>
+                                    )
+                                }
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </a>
