@@ -9,39 +9,39 @@ const projects = [
     },
     {
         id: 2,
+        title: "Tech gadget Shop",
+        imgUrl: require("../images/tech_gadget_shop.png"),
+        link: "https://github.com/lasanthamudalige/tech-gadget-shop",
+        technologies: ["Flask", "Stripe", "SqlAlchemy"]
+    },
+    {
+        id: 3,
         title: "Wiki API",
         imgUrl: require("../images/wiki_api.png"),
         link: "https://github.com/lasanthamudalige/wiki-api",
         technologies: ["Express", "MongoDB"]
     },
     {
-        id: 3,
+        id: 4,
         title: "TO Do list",
         imgUrl: require("../images/todo_list.png"),
         link: "https://github.com/lasanthamudalige/todo-list-node",
         technologies: ["Express", "MongoDB"]
     },
     {
-        id: 4,
+        id: 5,
         title: "Personal blog",
         imgUrl: require("../images/personal_blog.png"),
         link: "https://github.com/lasanthamudalige/personal-blog-node",
         technologies: ["Express", "MongoDB", "Bootstrap"]
     },
     {
-        id: 5,
+        id: 6,
         title: "Developer portfolio",
         imgUrl: require("../images/developer_portfolio.png"),
         link: "https://github.com/lasanthamudalige/personal-portfoilo-react",
         technologies: ["React", "Bootstrap"]
     },
-    {
-        id: 6,
-        title: "API based website",
-        imgUrl: require("../images/api_based_dictionary.png"),
-        link: "https://github.com/lasanthamudalige/api-based-dictionary",
-        technologies: ["Flask"]
-    }
 ];
 
 export default projects;
