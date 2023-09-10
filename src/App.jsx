@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./header";
-import Intro from "./Intro";
-import Projects from "./projects";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Header from "./components/header";
+import Intro from "./components/Intro";
+import Projects from "./components/projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
